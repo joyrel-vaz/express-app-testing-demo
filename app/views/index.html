@@ -6,7 +6,7 @@
   <%- include('_search_form.html') %>
 
   <% if (invalidParameters) { %>
-    <div class="alert alert-danger">
+    <div class="alert alert-primary">
       <strong>Invalid value for "tags" or "tagmode" input parameters</strong><br><br>
       Tags should be formatted as a comma delimited list containing only letters, commas, and spaces.
       Tag Mode must equal "all" or "any".
