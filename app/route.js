@@ -1,4 +1,4 @@
-const formValidator = require('./form_validator');
+onst formValidator = require('./form_validator');
 const photoModel = require('./photo_model');
 
 function route(app) {
